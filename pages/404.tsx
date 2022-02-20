@@ -21,7 +21,7 @@ const PageWrapper = styled.div`
 function PageNotFound() {
   const router = useRouter();
   const clickhandler = () => {
-    router.push("/");
+    router.push("/section8");
   };
   return (
     <PageWrapper>
