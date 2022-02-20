@@ -29,7 +29,7 @@ import { GlobeAltIcon } from "@heroicons/react/outline";
 
 const NavigationWrapper = styled.main`
   background: ${({ theme }) => theme.black};
-  flex-grow: 0;
+  flex-grow: 1;
   flex-basis: 20vw;
   flex-shrink: 1;
   max-width: 20vw;

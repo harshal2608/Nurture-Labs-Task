@@ -21,7 +21,7 @@ import { BackspaceIcon } from "@heroicons/react/outline";
 
 const Profilewrapper = styled.main`
   background: ${({ theme }) => theme.black};
-  flex-grow: 0;
+  flex-grow: 1;
   flex-basis: 30vw;
   flex-shrink: 2;
   color: ${({ theme }) => theme.white};
