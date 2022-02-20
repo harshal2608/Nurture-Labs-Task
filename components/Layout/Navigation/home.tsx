@@ -7,7 +7,7 @@ import { ItemWrapper, ImageWrapper } from "./";
 
 function home({ active = false }: { active: boolean }) {
   return (
-    <Link href="/home" passHref>
+    <Link href="/" passHref>
       <ItemWrapper active={active}>
         <RowFixed gap="20px">
           <ImageWrapper>

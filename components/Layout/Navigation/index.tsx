@@ -88,7 +88,7 @@ function Navigation() {
             <Image src={BackIcon} alt="back" />
           </RowBetween>
 
-          <Home active={router.pathname === "/home"} />
+          <Home active={router.pathname === "/"} />
           <Section1 active={router.pathname === "/section1"} />
           <Section2 active={router.pathname === "/section2"} />
           <Section3 active={router.pathname === "/section3"} />
@@ -96,7 +96,7 @@ function Navigation() {
           <Section5 active={router.pathname === "/section5"} />
           <Section6 active={router.pathname === "/section6"} />
           <Section7 active={router.pathname === "/section7"} />
-          <Section8 active={router.pathname === "/"} />
+          <Section8 active={router.pathname === "/section8"} />
           <Documentation active={router.pathname === "/documentation"} />
         </AutoColumn>
 

@@ -7,7 +7,7 @@ import { ItemWrapper, ImageWrapper } from "./";
 
 function section8({ active = false }: { active: boolean }) {
   return (
-    <Link href="/" passHref>
+    <Link href="/section8" passHref>
       <ItemWrapper active={active}>
         <RowFixed gap="20px">
           <ImageWrapper>
