@@ -3,7 +3,7 @@ import Navigation from "./Navigation";
 import Profile from "./Profile";
 import styled from "styled-components";
 
-const LayoutWrapper = styled.body`
+const LayoutWrapper = styled.div`
   display: flex;
   width: 100%;
   min-height: 100vh;
