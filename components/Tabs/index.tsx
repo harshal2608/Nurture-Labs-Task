@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Table from "../Table";
-import { tableData } from "../../pages";
+import { tableData } from "../../pages/section8";
 
 const StyledTabsList = styled(TabList)`
   display: flex;

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styled from "styled-components";
 
-import { tableData } from "../../pages";
+import { tableData } from "../../pages/section8";
 import { shortenAddress } from "../../utils";
 
 import { ExternalLinkIcon } from "@heroicons/react/outline";
