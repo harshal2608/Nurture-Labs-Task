@@ -7,6 +7,7 @@ const LayoutWrapper = styled.div`
   display: flex;
   width: 100%;
   min-height: 100vh;
+  max-width: 100vw;
   align-items: stretch;
   justify-content: flex-start;
 `;
